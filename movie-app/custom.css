@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(36, 31, 31);
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+#search-box{
+    width: 30%;
+    padding: 9px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+#movie-box{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    min-width: 20%;
+    margin: 30px;
+}
+.box img{
+    width: 100%;
+    height: 350px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #166d72;
+}
+.overlay{
+    position: absolute;
+    bottom: 0%;
+    cursor: pointer;
+    padding: 8px;
+    background-color: white;
+    border-radius: 11px;
+    box-shadow: 0 0 5px greenyellow;
+     display: none;
+}
+
+#title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#title h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+#title span{
+    color: orange;
+    font-size: 20px;
+}
+h3{
+    margin: 5px 0px;
+    font-size: 20px;
+}
+.box:hover .overlay{
+display: block;
+
+}
+p{
+    text-align: justify;
+}
