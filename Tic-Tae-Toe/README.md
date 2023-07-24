@@ -1,4 +1,4 @@
-<h1 align="center">Tic Toe Game</h1
+<h1 align="center">Tic Toe Game</h1>
 <h2 align="left">About The Project</h2>
 <p>Welcome to the Responsive <b>Tic-Tac-Toe Game!</b> This project is a classic game of tic-tac-toe built with HTML, CSS, and JavaScript. Whether you're a seasoned player or new to the game, challenge yourself or a friend to strategic battles in this interactive digital version of tic-tac-toe.</p>
 <h3 align="left">👉 Live Demo: <a href="https://hkt13.github.io/The-Comfy-Store/" target=" ">Live Demo</a></h3>
