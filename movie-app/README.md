@@ -1,4 +1,4 @@
-<h1 align="center" >CinemaSpot - Movie App/> Store</h1>
+<h1 align="center" >CinemaSpot - Movie App</h1>
 <h2 align="left">About The Project</h2>
 <p>Welcome to <b>Cinemagic - the ultimate Movie App!</b> This project is a dynamic movie application created with pure HTML, CSS, and JavaScript. Discover a vast collection of movies with the help of a movie API, and enjoy features like searching for movies, viewing IMDb ratings, and more.</p>
 <h3 align="left">👉 Live Demo: <a href="https://hkt13.github.io/Javascript-Projects/movie-app/" target=" ">Live Demo</a></h3>
