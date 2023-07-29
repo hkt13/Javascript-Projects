@@ -28,15 +28,13 @@ const checkwin = () => {
         [1, 4, 7],
         [2, 5, 8],
         [0, 4, 8],
-        [2, 4, 5],
+        [2, 4, 6],
 
     ]
-
     win.forEach((element) => {
         const box_text = document.getElementsByClassName("box_text");
-
         if (box_text[element[0]].innerText === box_text[element[1]].innerText && box_text[element[1]].innerText === box_text[element[2]].innerText && box_text[element[0]].innerText !== "") {
-
+               
             isgameover = true;
            
             infoel.innerText= box_text[element[0]].innerText + " Won"
@@ -49,7 +47,6 @@ const checkwin = () => {
 
 
 }
-console.log(isgameover)
 
 //Game Logic
 Array.from(boxel).forEach(box => {
